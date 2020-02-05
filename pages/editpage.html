@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Edit Config</title>
+    <script>
+        window.ipcRenderer = require('electron').ipcRenderer;
+    </script>
+    <link rel="stylesheet" href="./editpage.css">
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Back to main page</a>
+    </header>
+    <button id="select-file">Select Config File</button>
+    <button id="save">Save Config File</button>
+    <p id="portCount"></p>
+    <ol id="ports"></ol>
+
+    <h2 id="current-midi-id"></h2>
+    <div id="action" class="action">
+        <div id="addButton" class="action-btn">Add Action</div>
+    </div>
+
+    <div id="actions" class="actions">
+    </div>
+
+    <script src="editpage.js"></script>
+  </body>
+</html>

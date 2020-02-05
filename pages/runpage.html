@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Running</title>
+    <script>
+        window.ipcRenderer = require('electron').ipcRenderer;
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Back to main page</a>
+    </header>
+    <button id="select-file">Select Config File</button>
+    <p id="portCount"></p>
+    <ol id="ports"></ol>
+
+    <h2 id="current-midi-id"></h2>
+
+    <script src="runpage.js"></script>
+  </body>
+</html>

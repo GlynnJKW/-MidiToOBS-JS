@@ -1,0 +1,20 @@
+{
+  "name": "miditoobsjs",
+  "version": "1.0.0",
+  "description": "Midi control for obs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild-node": "./node_modules/.bin/electron-rebuild"
+  },
+  "author": "WEDS_GARBAGEDAY",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "midi": "^0.9.5",
+    "obs-websocket-js": "^3.0.0"
+  }
+}

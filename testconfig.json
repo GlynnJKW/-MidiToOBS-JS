@@ -1,0 +1,322 @@
+{
+  "actions": [
+    {
+      "properties": {
+        "scene-name": "Crab Rave"
+      },
+      "action": "SetSceneAction",
+      "type": "button",
+      "id": 0
+    },
+    {
+      "properties": {
+        "item": "drama5",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 7
+    },
+    {
+      "properties": {
+        "scene-name": "Always Sunny VOD"
+      },
+      "action": "SetSceneAction",
+      "type": "button",
+      "id": 8
+    },
+    {
+      "properties": {
+        "item": "drama4",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 15
+    },
+    {
+      "properties": {
+        "scene-name": "EricAndre"
+      },
+      "action": "SetSceneAction",
+      "type": "button",
+      "id": 16
+    },
+    {
+      "properties": {
+        "item": "happy3",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 21
+    },
+    {
+      "properties": {
+        "item": "sad3",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 22
+    },
+    {
+      "properties": {
+        "item": "drama3",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 23
+    },
+    {
+      "properties": {
+        "scene-name": "BRB"
+      },
+      "action": "SetSceneAction",
+      "type": "button",
+      "id": 24
+    },
+    {
+      "properties": {
+        "item": "happy2",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 29
+    },
+    {
+      "properties": {
+        "item": "sad2",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 30
+    },
+    {
+      "properties": {
+        "item": "drama2",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 31
+    },
+    {
+      "properties": {
+        "scene-name": "Main"
+      },
+      "action": "SetSceneAction",
+      "type": "button",
+      "id": 32
+    },
+    {
+      "properties": {
+        "item": "happy1",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 37
+    },
+    {
+      "properties": {
+        "item": "sad1",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 38
+    },
+    {
+      "properties": {
+        "item": "drama1",
+        "scene-name": "Music"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 39
+    },
+    {
+      "properties": {
+        "item": "KO",
+        "scene-name": "OverlayMemes"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 82
+    },
+    {
+      "properties": {
+        "item": "jojo awaken",
+        "scene-name": "OverlayMemes"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 83
+    },
+    {
+      "properties": {
+        "item": "cj",
+        "scene-name": "OverlayMemes"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 84
+    },
+    {
+      "properties": {
+        "item": "Respect",
+        "scene-name": "OverlayMemes"
+      },
+      "action": "ToggleSourceVisibilityAction",
+      "type": "button",
+      "id": 85
+    },
+    {
+      "properties": {
+        "source": "Mic",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 48
+    },
+    {
+      "properties": {
+        "source": "happy1",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "happy2",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "happy3",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "sad1",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "sad2",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "sad3",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "drama1",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "drama2",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "drama3",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "drama4",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "drama5",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 49
+    },
+    {
+      "properties": {
+        "source": "DesktopAudio",
+        "volume": 0,
+        "lowerBound": 0,
+        "upperBound": 1
+      },
+      "action": "SetVolumeAction",
+      "type": "dial",
+      "id": 50
+    }
+  ]
+}
